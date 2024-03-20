@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+#count-label{
+    display: block;
+    text-align: center;
+    font-size: 3em;
+}
+#control-buttons{
+    text-align: center;
+}
+.buttons{
+    padding:10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(100, 100, 238);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.buttons:hover{
+    background-color: rgba(100, 100, 238, 0.664);
+}
